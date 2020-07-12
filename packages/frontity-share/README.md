@@ -12,8 +12,9 @@ Please follow me 🙏 on [twitter](https://twitter.com/mymakarim) [twitter](http
 
 # How does it work?
 
-1. Install the Frontity Contact Form 7 package as shown in the Installation steps below.
+1. Install the Frontity Share package as shown in the Installation steps below.
 2. import SharingButtons from 'frontity-share' in your post.js
+  `import SharingButtons from 'frontity-share'`
 3. Use <SharingButtons /> anywhere in "post.js" and it will show the sharing buttons there
 
 
@@ -52,7 +53,7 @@ If you want to contribute to the package, you can do so following these simple s
 
 ## Credits :white_flower:
 
-- Build with love :blue_heart:, using [Frontity's](https://frontity.org)
+- Build with love :blue_heart:, for [Frontity](https://frontity.org)
 
 ## Authors
 
@@ -63,6 +64,9 @@ If you want to contribute to the package, you can do so following these simple s
 
 1. [mymakarim](https://twitter.com/codenawis) - Leed Developer [@frontity](https://twitter.com/frontity)
 
+
 ## License :scroll:
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)
+
+- **[GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)**
