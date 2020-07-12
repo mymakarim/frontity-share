@@ -38,8 +38,6 @@ That's it!
 
 This is the beta version. Some features will be added in the final release, like:
 
-1. [Support for all the fields](https://github.com/mymakarim/frontity-share/issues).
-
 ## Contribute to the package
 
 If you want to contribute to the package, you can do so following these simple steps:
