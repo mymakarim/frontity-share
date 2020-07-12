@@ -13,9 +13,25 @@ Please follow me 🙏 on [twitter](https://twitter.com/mymakarim) [twitter](http
 # How does it work?
 
 1. Install the Frontity Share package as shown in the Installation steps below.
-2. import SharingButtons from 'frontity-share' in your post.js
-  `import SharingButtons from 'frontity-share'`
-3. Use `<SharingButtons />` anywhere in "post.js" and it will show the sharing buttons there
+2. In **post.js** you can use `<SharingButton />` anywhere you want, for example:
+
+```jsx
+
+const Post = ({ state, libraries }) => {
+  const SharingButtons = libraries.fills.share.SharingButtons;
+
+  return (
+    <>
+      <Title />
+      <Author />
+      {/** If there is a share package, show all the buttons **/}
+      {state.share && <SharingButtons />}
+      <Content />
+    </>
+  );
+};
+
+```
 
 
 # Installation :wrench:
