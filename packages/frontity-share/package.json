@@ -1,0 +1,33 @@
+{
+  "name": "frontity-share",
+  "version": "0.1.0",
+  "description": "Sharing Buttons Package for Frontity.",
+  "main": "src/index.js",
+  "homepage": "https://codenawis.com",
+  "keywords": [
+    "frontity",
+    "share",
+    "sharing Buttons",
+    "facebook",
+    "twitter",
+    "linkedIn",
+    "Reactjs",
+    "react",
+    "frontity-share"
+  ],
+  "author": "Yahya Makarim, CodeNawis",
+  "license": "GNU GPL 2",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mymakarim/frontity-share"
+  },
+  "bugs": {
+    "url": "https://community.frontity.org"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "frontity": "^1.3.1"
+  }
+}
