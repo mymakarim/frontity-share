@@ -13,7 +13,10 @@ Please follow me 🙏 on [twitter](https://twitter.com/mymakarim) [twitter](http
 # How does it work?
 
 1. Install the Frontity Share package as shown in the Installation steps below.
-2. In **post.js** you can use `<SharingButton />` anywhere you want, for example:
+2. 
+- **First Way**
+
+In **post.js** you can use `<SharingButton />` anywhere you want, for example:
 
 ```jsx
 
@@ -33,6 +36,40 @@ const Post = ({ state, libraries }) => {
 
 ```
 
+- **Second Way**
+
+Put your slot inside post.js
+
+```jsx
+
+<Slot name="After Post Content" />
+
+```
+
+Then in **frontity.settings.js** initialize your slot name 
+
+```jsx
+
+const settings = {
+  // ...
+  packages: [
+    {
+      name: "some-share-package",
+      state: {
+        fills: {
+          share: {
+            ShareAfterPostContent: {
+              slot: "After Post Content",
+              library: "share.SharingButtons",
+            },
+          },
+        },
+      },
+    },
+  ],
+};
+
+```
 
 # Installation :wrench:
 

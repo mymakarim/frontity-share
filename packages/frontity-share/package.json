@@ -1,6 +1,6 @@
 {
   "name": "frontity-share",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Sharing Buttons Package for Frontity.",
   "main": "src/index.js",
   "homepage": "https://codenawis.com",
