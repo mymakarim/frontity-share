@@ -25,7 +25,7 @@ const Post = ({ state, libraries }) => {
       <Title />
       <Author />
       {/** If there is a share package, show all the buttons **/}
-      {state.share && <SharingButtons />}
+      {<SharingButtons />}
       <Content />
     </>
   );
